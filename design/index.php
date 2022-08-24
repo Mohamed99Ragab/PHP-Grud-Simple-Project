@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grud Project</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+    <!-- end font -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 
     
     
     <br><br><br>
+    <div class="h-10 d-flex align-items-center justify-content-center">
     <table class="table table-bordered" style="width:50%">
         <tr scope="row">
             <th scope="col">Id</th>
@@ -44,6 +51,7 @@
         </tr>
         <?php endforeach ?>
     </table>
+    </div>
     
 
 

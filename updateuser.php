@@ -49,4 +49,5 @@ if(isset($_POST['username'])){
 // echo "<pre>";
 // print_r($user_data);die;
 
+include "navbar.php" ;
 require "design/update.php";
